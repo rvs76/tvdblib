@@ -1,0 +1,13 @@
+#summary About the tvdb librar.
+
+= Introduction =
+
+tvdblib is an open source .net library for the series database http://thetvdb.com . With the library it is possible to access detailed information on a wide range of tv shows.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
