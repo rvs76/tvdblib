@@ -1,4 +1,4 @@
-#summary About the tvdb librar.
+#summary the tvdb library.
 
 = Introduction =
 
@@ -7,7 +7,10 @@ tvdblib is an open source .net library for the series database http://thetvdb.co
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+tvdblib currently offers the following features
+  * Search for a tv show
+  * Retrieve show information
+    * Details on series
+    * All Episodes
+    * Graphical content (banners, poster, fanart)
+  * Cache information locally
