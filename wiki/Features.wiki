@@ -1,0 +1,23 @@
+#summary Features
+#labels Featured,Features,Phase-Design,Todo
+
+= Implemented Features =
+Features of tvdblib:
+  * series information
+  * episoded information
+  * caching of downloaded data
+  * updating of cached data
+  * banners
+    * series
+    * season/wide season
+    * episode banner
+    * fanart
+    * poster
+
+
+= Todo =
+
+These features are provided by *thetvdb* but not yet supported:
+  * Banner ratings
+  * Author information
+  * Adding user favourites
