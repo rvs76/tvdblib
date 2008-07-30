@@ -1,0 +1,18 @@
+#summary Explains how files are cached locally
+#labels Caching,Provider,CacheProvider,Phase-Implementation,Source
+
+= Caching =
+
+Since it wouldn't make any sense to retrieve the same information on some series from tvdb everytime we need it, everything (nearly everything) that is downloaded is also stored locally.
+
+To ensure that the caching can adopt to most needs, the whole caching logic is done in a so called CacheProvider (Interface: ICacheProvider). More on CacheProvider and how to write your own in the (soon to come) documentation.
+
+The standard CacheProvider serializes all the data and stores it in a file called *cachefile.bin*. After deleting this file all stored information is gone
+
+
+= CacheProvider =
+
+It is planned to extend the ICacheProvider Interface to allow a more flexible and better performing solution. Furthermore, the following CacheProvider may be implemented:
+  * FileCacheProvider: Stores all the information in a windows folder structure
+  * DatabaseCacheProvider: Writes everything into a database
+  * ...
