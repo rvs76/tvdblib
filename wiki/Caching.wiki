@@ -13,6 +13,6 @@ The standard CacheProvider serializes all the data and stores it in a file calle
 = CacheProvider =
 
 It is planned to extend the ICacheProvider Interface to allow a more flexible and better performing solution. Furthermore, the following CacheProvider may be implemented:
-  * FileCacheProvider: Stores all the information in a windows folder structure
-  * DatabaseCacheProvider: Writes everything into a database
+  * _FileCacheProvider_: Stores all the information in a windows folder structure
+  * _DatabaseCacheProvider_: Writes everything into a database
   * ...
