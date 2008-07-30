@@ -1,5 +1,5 @@
 #summary Explains how files are cached locally
-#labels Caching,Provider,CacheProvider,Phase-Implementation,Source
+#labels Caching,Provider,Phase-Implementation,Source
 
 = Caching =
 
