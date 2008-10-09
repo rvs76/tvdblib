@@ -2,7 +2,7 @@
 
 = Introduction =
 TvdbSeries is the main class for accessing the retrieved information. The class consists of the following sections:
-* Information regarding the series [more http://thetvdb.com/wiki/index.php/API:Base_Series_Record]
+* Information regarding the series [http://thetvdb.com/wiki/index.php/API:Base_Series_Record more]
  * Name
  * Overview
  * Network
