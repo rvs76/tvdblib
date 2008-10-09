@@ -1,4 +1,5 @@
 #summary Different possibilities to download a series
+#labels Phase-Implementation
 
 = Main method =
 
@@ -29,8 +30,11 @@ If this series is not already cached and the series has to be downloaded, the zi
 }}}
 
 
+
 = Usage =
 The method GetSeries can be used to get a series object. Depending on the given parameter a more or less detailed version is downloaded. if _useZipped is set to true, all details (episodes, actors and banners) are downloaded at once.
+
+
 
 = Other methods =
 {{{
