@@ -2,29 +2,33 @@
 
 = Introduction =
 TvdbSeries is the main class for accessing the retrieved information. The class consists of the following sections:
-* Information regarding the series [http://thetvdb.com/wiki/index.php/API:Base_Series_Record more]
- * Name
- * Overview
- * Network
- * Writers, Directors,...
- * ...
-* Banners [http://thetvdb.com/wiki/index.php/Category:Banners more]
+
+== Information regarding the series [http://thetvdb.com/wiki/index.php/API:Base_Series_Record more] ==
+  * Name
+  * Overview
+  * Network
+  * Writers, Directors,...
+  * ...
+
+== Banners [http://thetvdb.com/wiki/index.php/Category:Banners more] ==
  * Series banners
  * Season banners / wide season banners
  * Poster banners
-* Episode information [http://thetvdb.com/wiki/index.php/API:Base_Episode_Record more]
+
+== Episode information [http://thetvdb.com/wiki/index.php/API:Base_Episode_Record more] ==
  * Name
  * Overview
  * First Aired
  * Episode Banner
  * ...
-* Actor Informations [http://thetvdb.com/wiki/index.php/API:actors.xml more]
+
+== Actor Informations [http://thetvdb.com/wiki/index.php/API:actors.xml more] ==
  * Name
  * Role
  * Image
 
 = All fields and methods=
-For a detailed description of all fields and methods of this class, see the documentation
+For a detailed description of all fields and methods of this class, see the [http://tvdblib.googlecode.com/files/Documentation.chm documentation]
 
 = Example Usage =
 The following sample initialises an Tvdb object, gets a detailed TvdbSeries and writes the information to the console:
