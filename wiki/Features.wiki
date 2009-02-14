@@ -1,4 +1,4 @@
-#summary Features
+#summary Features offered by the library
 #labels Featured,Features,Phase-Design,Todo
 
 = Implemented Features =
