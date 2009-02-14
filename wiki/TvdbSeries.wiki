@@ -34,7 +34,7 @@ For a detailed description of all fields and methods of this class, see the [htt
 The following sample initialises an Tvdb object, gets a detailed TvdbSeries and writes the information to the console:
 
 {{{
-      Tvdb tvdbHandler = new Tvdb(null, File.ReadAllText("api_key.txt"));//no caching -> same as "new Tvdb(insert_my_apikey);"
+      TvdbHandler tvdbHandler = new TvdbHandler(null, File.ReadAllText("api_key.txt"));//no caching -> same as "new TvdbHandler(insert_my_apikey);"
       //retrieve series "House" with all available information (without using zipped downloading)
       TvdbSeries s = tvdbHandler.GetSeries(73255, TvdbLanguage.DefaultLanguage, true, true, true, false);
       if (s != null)
