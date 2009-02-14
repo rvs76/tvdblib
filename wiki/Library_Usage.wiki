@@ -7,10 +7,10 @@ If you want to use the library to gain information from tvdb you first need your
 After adding the dll to your project you set up a tvdb instance (in this case using an xml cache provider) like this:
 
 {{{
-Tvdb tvdbHandler = new Tvdb(new XmlCacheProvider("C:\\test"), "YOUR_API_KEY");
+TvdbHandler tvdbHandler = new TvdbHandler(new XmlCacheProvider("C:\\test"), "YOUR_API_KEY");
 }}}
 
-You can then use the InitCache() method to load basic things like the language list or the list of available mirrors from cache (if they have already been cached). 
+You can then use the InitCache() method to initialise the cache provider. This should be done before loading any other information. 
 
 {{{
 tvdbHandler.InitCache();
@@ -25,16 +25,16 @@ List<TvdbLanguage> m_languages = tvdbHandler.Languages;
 Now you can easily retrieve information on a series by calling
 
 {{{
-TvdbSeries s = tvdbHandler.GetSeries(73255, TvdbLanguage.DefaultLanguage, true, true);
+TvdbSeries s = tvdbHandler.GetSeries(73255, TvdbLanguage.DefaultLanguage, true, true, true);
 }}}
 
-This will retrieve all available data from the series 73255 (which is House M.D.) in the default language (which is english) and also load episode and banner information. After using the information you should call
+This will retrieve all available data from the series 73255 (which is House M.D.) in the default language (which is english) and also load episode, banner and actor information. After using the information you should call
 
 {{{
-tvdbHandler.SaveCache();
+tvdbHandler.CloseCache();
 }}}
 
-to save the downloaded information via the cache provider.
+to close the selected cache provider.
 
 
 = Advanced Scenarios =
